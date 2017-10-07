@@ -1,0 +1,5 @@
+Django==1.9
+gunicorn==19.6.0
+djangorestframework
+mongoengine
+django-rest-framework-mongoengine
