@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'proj1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-DBHOST = 'localhost'
+DBHOST = os.environ['DBHOST']
 
 DATABASES = {
     'default': {
